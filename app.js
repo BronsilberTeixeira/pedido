@@ -3,8 +3,8 @@ let positionx = 0;
 let positiony = 0;
 
 const moveButton = () => {
-positionx = Math.random() * 300;
-positiony = Math.random() * 300;
+positionx = Math.random() * 100;
+positiony = Math.random() * 100;
 btn.style.transform = `translate(${positionx}px, ${positiony}px)`;
 btn.style.transition = "all 0.2s ease";
 };
