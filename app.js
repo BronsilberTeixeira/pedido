@@ -3,8 +3,8 @@ let positionx = 0;
 let positiony = 0;
 
 const moveButton = () => {
-positionx = Math.random() * 200;
-positiony = Math.random() * 200;
+positionx = Math.random() * 300;
+positiony = Math.random() * 300;
 btn.style.transform = `translate(${positionx}px, ${positiony}px)`;
 btn.style.transition = "all 0.2s ease";
 };
@@ -20,7 +20,7 @@ sim.addEventListener("click", () => {
 let timerInterval
 Swal.fire({
  title: 'Obrigado 😍',
- html: 'Prometo lhe fazer feliz. 💘',
+ html: 'Prometo ser o melhor dono do mundo para a minha escolhida. 💘',
  timer: 4000,
  timerProgressBar: true,
  didOpen: () => {

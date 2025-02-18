@@ -12,6 +12,7 @@
     background-color: #f6f6f6;
   }
 
+  
   /* Estilos do header */
   .nav {
     position: fixed;
@@ -31,7 +32,7 @@
 
   .logo {
     font-size: 2rem;
-    color: #f26161;
+    color: purple;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: flex;
@@ -58,25 +59,30 @@
     align-items: center;
   }
 
+  .carousel  {
+    max-width: 10rem;
+    border-radius: 10px;
+  }
+
   h1 {
     font-size: 3rem;
-    color: #f26161;
+    color: purple;
     margin-bottom: 30px;
   }
 
   #yes {
     background-color: #fff;
-    color: #ff6961;
+    color: purple;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
 
   #yes:hover {
-    background-color: #ff6961;
+    background-color: purple;
     color: #fff;
   }
 
   .no {
-    background-color: #ff6961;
+    background-color: red;
     color: #fff;
     font-size: 20px;
     padding: 10px 20px;
